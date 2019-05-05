@@ -1,0 +1,185 @@
+@font-face{
+    font-family: 'Kingthings_Exeter';
+    src: url('Kingthings_Exeter.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.main_column {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 550px;
+    margin: auto;
+    margin-top: 2%;
+    background-color: white;
+    border: 1px solid #D5D5D5;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #CACACA;
+}
+
+.header {
+    width: 100%;
+    height: 15%;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Kingthings_Exeter';
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    margin-top: 20px;
+    color: #686868;
+}
+
+.header h1:hover {
+    text-decoration: underline;
+}
+
+.form {
+    width: 100%;
+    height: 65%;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 35px;
+    margin: 5px 10%;
+    border: 1px solid #4778FF;
+    border-radius: 40px;
+    padding-left: 20px;
+    outline: none;
+}
+
+input[type="text"]:hover {
+    box-shadow: 0 0 20px #4778FF;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 20px #4778FF;
+}
+
+input[type="password"] {
+    width: 80%;
+    height: 35px;
+    margin: 5px 10%;
+    border: 1px solid #4778FF;
+    border-radius: 40px;
+    padding-left: 20px;
+    outline: none;
+}
+
+input[type="password"]:hover {
+    box-shadow: 0 0 20px #4778FF;
+}
+
+input[type="password"]:focus {
+    box-shadow: 0 0 20px #4778FF;
+}
+
+input[type="submit"] {
+    float: right;
+    width: 30%;
+    height: 35px;
+    margin: 50px 10% 5px 0;
+    background-color: #4778FF;
+    border: 1px solid #4778FF;
+    border-radius: 40px;
+    outline: none;
+    color: white;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 0 20px #4778FF;
+}
+
+input[type="submit"]:active {
+    box-shadow: 0 0 20px #4778FF;
+    height: 33px;
+    width: 29%;
+    font-size: 95%;
+    margin: 52px 10.5% 6px 0;
+}
+
+.form a {
+    background-color: #4778FF;
+    float: left;
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 50px 0 5px 10%;
+    border: 1px solid #4778FF;
+    border-radius: 40px;
+    outline: none;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.form a:link {
+    
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.form a:active {
+    box-shadow: 0 0 20px #4778FF;
+    height: 33px;
+    width: 29%;
+    font-size: 95%;
+    margin: 52px 0 6px 10.5%;
+    text-decoration: none;
+}
+
+.form a:hover {
+    box-shadow: 0 0 20px #4778FF;
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.form a:visited {
+    
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.form a:default {
+    font-family: sans-serif;
+    outline: none;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    height: 16%;
+    color: #FF8447;
+    overflow-y: auto;
+}
+
+.footer h1 {
+    font-size: 150%;
+    text-align: center;
+}

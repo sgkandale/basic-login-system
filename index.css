@@ -1,0 +1,118 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9FAFF;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to bottom, #FBFBFB, #F4F4F4);
+    padding: 3px 5px;
+    line-height: 50px;
+    box-shadow: 0 0 15px #737373;
+}
+
+.navbar h1 {
+    color: #5A5A5A;
+    font-size: 190%;
+    margin-left: 5px;
+}
+
+.navbar h1:hover {
+    text-decoration: underline;
+}
+
+.navbar a {
+    float: right;
+    position: relative;
+    padding: 3px;
+    text-decoration: none;
+    color: #6E6E6E;
+    font-size: 120%;
+}
+
+.navbar a:default {
+    text-decoration: none;
+    color: #6E6E6E;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+    color: #6E6E6E;
+}
+
+.navbar a:focus {
+    text-decoration: none;
+    color: #6E6E6E;
+}
+
+.navbar a:active {
+    text-decoration: none;
+    color: #6E6E6E;
+}
+
+.home_link {
+    color: #6E6E6E;
+    margin: -55px 2px 0 0;
+}
+
+.home_link:hover {
+    color: #273276;
+    text-shadow: 0 0 30px #0020FF;
+}
+
+.home_link:active {
+    color: #273276;
+    text-shadow: 0 0 30px #0020FF;
+}
+
+.logout_link {
+    color: #FF4242;
+    margin: -55px 7px 0 0;
+}
+
+.logout_link:hover {
+    color: #762727;
+    text-shadow: 0 0 30px #FF0000;
+}
+
+.logout_link:active {
+    color: #762727;
+    text-shadow: 0 0 30px #FF0000;
+}
+
+.content {
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 410px;
+    height: 40%;
+    max-height: 400px;
+    border: 1px solid #B5B4B4;
+    margin-top: 80px;
+    margin-left: 20px;
+    box-shadow: 0 0 12px #CACACA;
+}
+
+.content h1 {
+    color: #777777;
+    font-size: 140%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content h2 {
+    color: #777777;
+    font-size: 110%;
+    text-align: center;
+    margin-top: 10px;
+}
